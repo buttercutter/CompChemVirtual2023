@@ -1,0 +1,33 @@
+$molecule
+1 1
+  Cu    0.4117537   -0.0402635    0.0000000
+  H   -1.1855664    0.4793123    0.0000000
+  H   -1.2434158   -0.3245173    0.0000000
+$end
+
+$rem
+   BASIS  =  def2-svpd
+   GUI  =  2
+   JOB_TYPE  =  Optimization
+   METHOD  =  wB97XD
+   SCF_CONVERGENCE  =  8
+   SYMMETRY  =  FALSE
+$end
+
+
+
+@@@
+
+$molecule
+read
+$end
+
+$rem
+   BASIS  =  def2-svpd
+   GUI  =  2
+   JOB_TYPE  =  Frequency
+   METHOD  =  wB97XD
+   SCF_CONVERGENCE  =  8
+   SYMMETRY  =  FALSE
+$end
+

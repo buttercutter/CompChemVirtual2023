@@ -1,0 +1,34 @@
+$molecule
+0 2
+  C   -0.5723350    0.5147275    0.7148580
+ Cl    1.2006585    0.5468418    0.5854017
+ Br   -2.5002592    0.4796239    0.8559726
+  H   -0.5106301    1.0410241    1.6894817
+  H   -0.5546742   -0.5940343    0.6807325
+  H   -0.6516332    1.0972264   -0.2260007
+$end
+
+$rem
+   BASIS  =  6-31G
+   GUI  =  2
+   JOB_TYPE  =  Frequency
+   METHOD  =  HF
+   SCF_CONVERGENCE  =  8
+$end
+
+
+@@@
+
+$molecule
+read
+$end
+
+$rem
+   BASIS  =  6-31G
+   GEOM_OPT_HESSIAN  =  Read
+   GUI  =  2
+   JOB_TYPE  =  TS
+   METHOD  =  HF
+   SCF_CONVERGENCE  =  8
+$end
+

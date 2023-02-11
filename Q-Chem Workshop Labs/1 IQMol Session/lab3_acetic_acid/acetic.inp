@@ -1,0 +1,36 @@
+$molecule
+0 1
+  H   -2.6389191    0.1213256   -0.8036639
+  C   -2.1529831    0.0549256    0.1785590
+  H   -2.5169409    0.8918256    0.7890547
+  H   -2.4745630   -0.8796744    0.6553851
+  C   -0.6634734    0.1064256    0.0393504
+  O    0.1680625   -0.7182744    0.3732807
+  O   -0.1776151    1.2307256   -0.5404288
+  H    0.7720849    1.1852256   -0.5912078
+$end
+
+$rem
+   BASIS  =  6-31G
+   GUI  =  2
+   JOB_TYPE  =  Optimization
+   METHOD  =  HF
+   SCF_CONVERGENCE  =  8
+$end
+
+
+
+@@@
+
+$molecule
+read
+$end
+
+$rem
+   BASIS  =  6-31G
+   GUI  =  2
+   JOB_TYPE  =  Frequency
+   METHOD  =  HF
+   SCF_CONVERGENCE  =  8
+$end
+

@@ -1,0 +1,17 @@
+$molecule
+0 3
+  C    0.0000000    0.0000000    0.1316756
+  H   -0.9058016    0.0000000   -0.3950267
+  H    0.9058016    0.0000000   -0.3950267
+$end
+
+$rem
+   BASIS  =  6-31G
+   CC_EOM_PROP_TE  =  1
+   CC_REF_PROP_TE  =  1
+   GUI  =  2
+   MEM_TOTAL  =  4000
+   METHOD  =  EOM-CCSD
+   SF_STATES  =  [2,0,0,2]
+$end
+

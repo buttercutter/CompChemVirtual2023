@@ -1,0 +1,24 @@
+$molecule
+0 1
+  C   -2.9561468    1.0707764    0.0023981
+  C   -1.6511144    1.0941247    0.0014084
+  C   -0.3460809    1.1177354    0.0002208
+  H   -3.4839976    0.2420132   -0.4563828
+  H   -3.5125515    1.8825867    0.4577838
+  H    0.1832249    1.7885029   -0.6674703
+  H    0.2087278    0.4670880    0.6671153
+$end
+
+$rem
+   BASIS  =  STO-3G
+   CIS_N_ROOTS  =  5
+   CIS_SINGLETS  =  1
+   CIS_STATE_DERIV  =  1
+   CIS_TRIPLETS  =  0
+   GUI  =  2
+   JOB_TYPE  =  Optimization
+   METHOD  =  HF
+   SCF_CONVERGENCE  =  8
+$end
+
+
